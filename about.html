@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <img src="img/bg.jpg" id="bg">
+        <img src="img/moon.png" id="moon">
+        <img src="img/mountain.png" id="mountain">
+        <img src="img/road.png" id="road">
+        <h2 id="text">About me</h2>
+
+    </section>
+    <div class="sec">
+        <h2>Letter</h2>
+        <p>I am majoring in IT at UC Blue Ash. I learned a place on the Fall Semester 2020 Dean's List at UCBA. I currently hold a 3.184 GPA score at UCBA. I earned the following certificates in 2020-2021: Learning Relational Databases, Succeeding in Web Development: Full Stack and Front End, and Python for Students.
+            <br></br>
+            I have extensive experience using HTML/CSS gained through creating a multitude of websites. In addition, I have over 2 years of experience using Java.
+            <br></br>
+            I am a self taught programmer in the areas that were not covered in college. I learn by reading books such as Big Java by Cay Horstmann which taught me how to read errors in my code. I gained the ability to problem solve and progress forward through errors.
+            <br></br>
+            I learned HTML with video tutorials some important concepts for example, how to correctly place a form tag which contain controls like sections containing text fields, password fields, checkboxes, radio buttons, submit button and menus
+            <br></br>
+            I am a bilingual speaker. This skill allows me to see parallels with programming languages and similarities between concepts, making it easier to acquire the programming languages by applying strategies that I have used to learn any language.
+            <br></br>
+            I have some experience in one-on-one tutoring. I think this type of lesson is the most effective, because students can receive more direct, personalized learning experiences that keep them from falling behind. During the pandemic, tutoring in person one to one became almost impossible. Now since all use apps such as Zoom. I applied new strategies based on previous in person lessons to an online classroom by presenting the material on a virtual board and asking questions to see if a student understands it correctly on the chat box or asking via microphone. One of examples, on how I applied those new strategies in online settings was, teaching one student on how to align navbar menu items horizontally centered in the header. I used some learning strategies, for example, using a lot of interactivities to make a student feel comfortable in the online classroom because the environmental factors can affect critical thinking which is very important in programming. Student is now able to align navbar menu items by his own.
+        </p>
+        <h2>Resume section</h2>
+    <button type="button" class="button">
+        <a href="resume/Aleksei_Nechaev_Resume.pdf" download class="linResume">Resume</a> 
+        <span class="button__text">
+        <ion-icon name="cloud-download-outline"></ion-icon>
+    </span>
+    </button>
+   
+    </div>
+
+    <script type="text/javascript">
+        let bg = document.getElementById("bg");
+        let moon = document.getElementById("moon");
+        let mountain = document.getElementById("mountain");
+        let road = document.getElementById("road");
+
+        window.addEventListener('scroll', function () {
+            var value = window.scrollY;
+
+            bg.style.top = value * 0.5 + 'px';
+            moon.style.top = value * 0.5 + 'px';
+            mountain.style.top = value * 0.15 + 'px';
+            road.style.top = value * 0.15 + 'px';
+            text.style.top = value * 1 + 'px';
+
+        });
+    </script>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <footer>
+        <ul>
+          <li><a href="https://twitter.com/AlexNechaev10"  target="_blank" class="social twitter">Twitter</a></li>
+          <li><a href="https://www.linkedin.com/in/alekseinechaev77/" target="_blank" class="social linkedin">LinkedIn</a></li>
+          <li><a href="https://github.com/alekseynecha77"  target="_blank" class="social github">Github</a></li>
+        </ul>
+        <p class="copyright">Copyright 2021, Alex Nechaev</p>
+      </footer>
+</body>
+
+</html>

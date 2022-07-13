@@ -1,0 +1,332 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 1500px;
+  font-family: 'Roboto', sans-serif;
+  background:#4a92b8;
+ 
+}
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #0a2a43, transparent);
+  z-index: 10000;
+}
+section:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0a2a43;
+  z-index: 10000;
+  mix-blend-mode: color;
+}
+section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+#text {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 10em;
+  z-index: 1;
+  vertical-align: top;
+}
+
+p {
+  color: #fff;
+}
+#road {
+  z-index: 1;
+}
+
+.sec{
+    position: relative;
+    padding: 100px;
+}
+.sec2{
+  position: relative;
+  padding: 100px;
+}
+h2{
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color:#fff;
+  text-align: center;
+}
+
+.sec2 h2{
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color:#fff;
+}
+
+.sec h2{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color:#fff;
+}
+.sec p{
+  font-size: 1em;
+  color: #fff;
+}
+
+
+
+.navbar{
+  margin-bottom: 0;
+}
+
+.navbar ul{
+  list-style: none;
+  background: #1e90bd;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0px;
+
+}
+
+
+.navbar li {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  display: block;
+  padding: 25px 20px;
+  font-family: arial;
+  text-align: center;
+  margin: 0;
+}
+.navbar a:hover {
+  background: #ccc;
+}
+.linResume{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.button{
+  display: inline-flex;
+  text-align:center;
+  padding: 0;
+  height: 50px;
+  background: #009578;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button__text,
+.linResume{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+}
+/* img { */
+  /* max-width: 100%; */
+  /* height: auto; */
+  /* display: flex; */
+/* } */
+img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  align-items: center;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+  text-align: center;
+  align-items: center;
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+a.twitter {
+  background-image: url(img/twitter.svg);
+}
+a.linkedin {
+  background-image: url(img/linkedin.svg);
+}
+a.github {
+  background-image: url(img/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
+@media screen and (max-width: 740px) {
+
+  h2#text {
+        color: #fff;
+        font-size: 15vw;
+        z-index: 1;
+        text-align: center;
+      }
+
+      .navbar ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+            }
+
+            .navbar2 ul{
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+                  }
+            section:after{
+          
+              mix-blend-mode: color;
+
+            }
+            section{
+              height: 50vh;
+
+            }
+       
+    }
