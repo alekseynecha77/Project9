@@ -245,6 +245,8 @@ section img {
   color:  #e8a412;;
   position: relative;
   vertical-align: top;
+font-size: 40px;
+white-space: nowrap;
 
 }
  .in{
@@ -253,6 +255,7 @@ section img {
   color: #e8a412;
   text-align: center;
   position: relative;
+
  }
 /* } */
 .regular{
