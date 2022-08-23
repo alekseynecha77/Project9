@@ -235,7 +235,7 @@ section img {
   position: relative;
   text-align: center;
   color:  #e8a412;
-  font-size: 3em;
+  font-size: 4em;
   /* z-index: 2; */
   vertical-align: top;
 }
@@ -510,9 +510,9 @@ font-size: 3em;
 }
 @media (max-width: 1024px) {
 
-  h2#text {
-        color: #fff;
-        font-size: 10vw;
+  h2#text{
+        color: #e8a412;
+        font-size:15vw;
         z-index: 1;
         text-align: center;
       }
