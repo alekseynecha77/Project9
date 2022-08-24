@@ -31,7 +31,6 @@ footer {
 }
 .message{
   margin: 0px 10px auto;
-
 }
 /*  message field */
 .form-field {
@@ -46,7 +45,7 @@ form.widget-container {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: calc(95% - 10px);
+  width: 100%;
   margin-top: 30px;
 }
 
@@ -156,7 +155,6 @@ section{
   place-content: center;
   font-family: "Garamond";
   font-size: 4em;
-  grid-area: section;
 }
 
 .centered-small {
@@ -167,18 +165,7 @@ section{
   margin: 0 auto;
   height: 100%;
 }
-/* #section-about .layer .half { */
-  /* padding-top: 10em; */
-/* } */
-/* main section .layer .half { */
-  /* float: left; */
-  /* width: 50%; */
-  /* box-sizing: border-box; */
-/* } */
-/* .one{ */
-  /* background: url('img/cyberngith.jpeg'); */
-  /* background-size: cover; */
-/* } */
+
 
 
 .mySlides img{
@@ -191,8 +178,7 @@ section{
  section {
   position: relative;
   width: 100%;
-  height: 100%;
-  overflow: hidden;
+   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -502,20 +488,32 @@ a.github {
 a.social:hover {
   opacity: 1;
 }
+
+/* .banner{ */
+  /* margin: 0px 0px 150px; */
+/* } */
 @media (min-width: 768px) {
 
   section{
 font-size: 3em;
 
   }
+  form.widget-container{
+    width: 100%;
+   }
 
+   h2#text{
+    color: #e8a412;
+    font-size:7vw;
+    text-align: center;
 
+  }
 }
 @media (max-width: 1024px) {
 
   h2#text{
         color: #e8a412;
-        font-size:15vw;
+        font-size:10vw;
         z-index: 1;
         text-align: center;
       }
@@ -526,8 +524,8 @@ font-size: 3em;
         align-items: center;
             }
 
-            .below{
-              height: 100%;
-            }
+            /* .below{ */
+              /* height: 100%; */
+            /* } */
        
     }
