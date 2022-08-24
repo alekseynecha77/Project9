@@ -184,6 +184,7 @@ svg{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 section:before {
   content: "";
@@ -203,6 +204,7 @@ section:after {
   height: 100%;
   /* z-index: 10; */
   mix-blend-mode: color;
+  margin-top: 20px;
 }
 section img {
   position: absolute;
@@ -258,7 +260,7 @@ white-space: nowrap;
 }
 .sec{
     position: relative;
-    padding: 100px;
+    padding: 40px;
 }
 .sec2{
   position: relative;
