@@ -204,7 +204,6 @@ section:after {
   height: 100%;
   /* z-index: 10; */
   mix-blend-mode: color;
-  margin-top: 20px;
 }
 section img {
   position: absolute;
