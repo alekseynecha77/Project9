@@ -103,6 +103,9 @@ a.social:hover {
   opacity: 1.5;
 
 }
+.below{
+  height: 80vh;
+}
 /* .below{ */
   /* background-image: url('img/Plant-Roots-rhizosphere.jpeg'); */
 /* background-size: cover; */
@@ -147,10 +150,9 @@ nav li {
 svg{
   display: inline-block;
   height: 100%;
-  /* z-index: 200; */
 }
-section{
-  height: 100vh;
+.mainPage{
+  height: 45vh;
   display: grid;
   place-content: center;
   font-family: "Garamond";
@@ -438,9 +440,9 @@ img {
 /* } */
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
+/* @media only screen and (max-width: 300px) { */
+  /* .prev, .next,.text {font-size: 11px} */
+/* } */
 footer {
   width: 100%;
   min-height: 30px;
@@ -456,6 +458,7 @@ footer .copyright {
 .list-items{
   font-size: 30px;
 }
+
 
 footer ul {
   list-style-type: none;
@@ -498,6 +501,17 @@ a.social:hover {
 font-size: 3em;
 
   }
+
+  .mainPage{
+    height: 70vh;
+    display: grid;
+    place-content: center;
+    font-family: "Garamond";
+    font-size: 4em;
+  }
+  .below{
+    height: 150vh;
+  }
   form.widget-container{
     width: 100%;
    }
@@ -527,5 +541,12 @@ font-size: 3em;
             /* .below{ */
               /* height: 100%; */
             /* } */
+            .banner{
+              height: 100vh;
+              place-content: center;
+              display: grid;
+              font-family: "Garamond";
+              font-size: 7em;
+            }
        
     }
