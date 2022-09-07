@@ -20,16 +20,15 @@ body {
 .timeline {
   margin: 0 auto;
   max-width: 750px;
-  padding: 25px;
   display: grid;
   grid-template-columns: 1fr 3px 1fr;
   font-family: "Fira Sans", sans-serif;
   color: #ffffff;
 }
 
-.timeline__component {
-  margin: 0 20px 20px 20px;
-}
+/* .timeline__component { */
+  /* margin: 0 20px 20px 20px; */
+/* } */
 
 .timeline__component--bg {
   padding: 1.5em;
@@ -66,7 +65,13 @@ body {
 
 .timeline__date--right {
   text-align: right;
+  margin-right: 25px;
 }
+.timeline__date{
+  text-align: right;
+
+} 
+
 
 .timeline__title {
   margin: 0;
@@ -165,9 +170,9 @@ a.social:hover {
   opacity: 1.5;
 
 }
-.below{
-  height: 80vh;
-}
+/* .below{ */
+  /* height: 80vh; */
+/* } */
 /* .below{ */
   /* background-image: url('img/Plant-Roots-rhizosphere.jpeg'); */
 /* background-size: cover; */
@@ -560,6 +565,15 @@ a.social:hover {
   opacity: 1;
 }
 
+.timeline__component--bg {
+
+   animation:spin 2s ease-in-out;
+}
+@keyframes spin {
+   100% {transform: rotate(360deg); transform:rotate(360deg); }
+}
+
+
 /* .banner{ */
   /* margin: 0px 0px 150px; */
 /* } */
@@ -577,9 +591,9 @@ font-size: 3em;
     font-family: "Garamond";
     font-size: 4em;
   }
-  .below{
-    height: 150vh;
-  }
+  /* .below{ */
+    /* height: 150vh; */
+  /* } */
   form.widget-container{
     width: 100%;
    }
