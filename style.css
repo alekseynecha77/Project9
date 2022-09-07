@@ -24,6 +24,8 @@ body {
   grid-template-columns: 1fr 3px 1fr;
   font-family: "Fira Sans", sans-serif;
   color: #ffffff;
+
+
 }
 
 /* .timeline__component { */
@@ -35,6 +37,8 @@ body {
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  z-index: 3;
+
 }
 
 /* LEAVE TILL LAST */
@@ -44,6 +48,7 @@ body {
 .timeline__middle {
   position: relative;
   background: #ffffff;
+
 }
 
 .timeline__point {
@@ -565,13 +570,17 @@ a.social:hover {
   opacity: 1;
 }
 
-.timeline__component--bg {
-
-   animation:spin 2s ease-in-out;
+.timeline__component--bg:hover img{
+  transform: scale(1.5 ) rotate( 0.5turn);
+  transition: all 2s;
 }
-@keyframes spin {
-   100% {transform: rotate(360deg); transform:rotate(360deg); }
-}
+/* .timeline__component--bg { */
+/*  */
+   /* animation:spin 2s ease-in-out; */
+/* } */
+/* @keyframes spin { */
+   /* 100% {transform: rotate(360deg); transform:rotate(360deg); } */
+/* } */
 
 
 /* .banner{ */
