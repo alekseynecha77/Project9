@@ -570,10 +570,7 @@ a.social:hover {
   opacity: 1;
 }
 
-.timeline__component--bg:hover img{
-  transform: scale(1.5 ) rotate( 0.5turn);
-  transition: all 2s;
-}
+
 /* .timeline__component--bg { */
 /*  */
    /* animation:spin 2s ease-in-out; */
@@ -586,13 +583,26 @@ a.social:hover {
 /* .banner{ */
   /* margin: 0px 0px 150px; */
 /* } */
+.timeline__component--bg {
+
+   animation:spin 2s ease-in-out;
+}
+@keyframes spin {
+   100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+
+
+
 @media (min-width: 768px) {
 
   section{
 font-size: 3em;
 
   }
-
+  .timeline__component--bg:hover img{
+    transform: scale(1.5 ) rotate( 0.5turn);
+    transition: all 2s;
+  }
   .mainPage{
     height: 70vh;
     display: grid;
