@@ -77,6 +77,10 @@ body {
   top: initial;
   bottom: 0;
 }
+.message{
+  font-size: 1em;
+  height: 100%;
+}
 
 .timeline__date--right {
   text-align: right;
