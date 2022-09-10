@@ -29,10 +29,10 @@ body {
 }
     
 .banner{
-  height: 100vh;
+  height: 70%;
   place-content: center;
   font-family: "Garamond";
-  font-size: 7em;
+  font-size: 5em;
 }
 .message-and-settings{
   height: 100vh;
@@ -316,6 +316,7 @@ img .java{
   font-size: 4em;
   /* z-index: 2; */
   vertical-align: top;
+  top: 50px;
 }
 #MYname{
 
@@ -609,7 +610,9 @@ a.social:hover {
 
 
 @media (min-width: 768px) {
-
+.banner{
+  font-size: 10em;
+}
   section{
 font-size: 5em;
 
@@ -638,6 +641,7 @@ font-size: 5em;
     font-size:4vw;
     text-align: center;
 top: auto;
+
   }
 
  
