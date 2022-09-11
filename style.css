@@ -315,7 +315,7 @@ img .java{
   font-size: 4em;
   /* z-index: 2; */
   vertical-align: top;
-  top: 50px;
+  top: auto;
 }
 #MYname{
 
