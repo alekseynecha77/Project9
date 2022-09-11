@@ -33,6 +33,21 @@ window.addEventListener("scroll", function() {
   
 });
 
+const desert = document.getElementById("desert");
+const myname = document.getElementById('MYname');
+
+
+
+window.addEventListener('scroll', function () {
+    var value = window.scrollY;
+
+    myname.style.top = value * 0.45 + 'px';
+
+    desert.style.top = value * 0.15 + 'px';
+
+    text.style.top = value * 1 + 'px';
+
+});
 
 
 
