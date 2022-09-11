@@ -33,6 +33,7 @@ body {
   place-content: center;
   font-family: "Garamond";
   font-size: 5em;
+  top: 50px;
 }
 .message-and-settings{
   height: 100vh;
