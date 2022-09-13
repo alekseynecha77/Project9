@@ -10,7 +10,7 @@ body {
  
 }
 header{
-  background-color: rgb(120,154,46);
+  background-color: rgba(19, 209, 168, 0.506);
 }
 .container {
   min-height: 800px;
@@ -468,9 +468,7 @@ img {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: rgb(120,154,46);
-}
+
 
 
 footer .copyright {
@@ -517,6 +515,10 @@ a.social:hover {
 
 
 /* NAVBAR */
+.dot:hover {
+  background-color: rgba(19, 209, 168, 0.506);
+}
+
 li{
   list-style: none;
 }
@@ -552,7 +554,7 @@ gap: 60px;
   cursor: pointer;
   }
 
-  
+
 
 .timeline__component--bg {
 
@@ -581,7 +583,7 @@ transform: translateY(-8px) rotate(-45deg);
   top:70px;
   gap: 0;
   flex-direction: column;
-  background-color:  rgb(120,154,46);
+  background-color:  rgba(19, 209, 168, 0.506);
   width: 100%;
   text-align: center;
   transition: 0.3s;
