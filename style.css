@@ -106,7 +106,7 @@ header{
 footer {
   width: 100%;
   min-height:30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 0 40px;
   position: relative;
   z-index: 2;
   text-align: center;
@@ -169,6 +169,7 @@ footer ul li {
 a.social {
   display: inline-block;
   margin-left: 5px;
+  margin-right: 5px;
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
@@ -501,7 +502,7 @@ a.social:hover {
 
 /* NAVBAR */
 .dot:hover {
-  background-color: rgba(19, 209, 168, 0.506);
+  background-color: rgba(22, 237, 79, 0.719);
 }
 
 li{
