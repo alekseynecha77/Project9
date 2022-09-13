@@ -202,19 +202,7 @@ a.social:hover {
   z-index: 1;
 }
 
- /* .refer{ */
-  /* z-index: 2; */
-  /* text-decoration: none; */
-  /* color: #e8a412; */
-  /* position: relative; */
-/*  */
-/* } */
 
-/*  */
-/* .one{ */
-  /* background: url('img/Plant-Roots-rhizosphere.jpeg'); */
-/* background-size: cover; */
-/* } */
 #ground {
   min-width: 100%;
 }
@@ -225,7 +213,6 @@ svg{
 }
 .mainPage{
   height: 45vh;
-  /* display: grid; */
   place-content: center;
   font-family: "Garamond";
   font-size: 4em;
@@ -259,11 +246,9 @@ svg{
 }
 section:before {
   content: "";
-  /* position: absolute; */
   bottom: 0;
   width: 100%;
   height: 100px;
-  /* z-index: 10000; */
 }
 section:after {
   content: "";
@@ -271,7 +256,6 @@ section:after {
   left: 0;
   width: 100%;
   height: 100%;
-  /* z-index: 10; */
   mix-blend-mode: color;
 }
 section img {
@@ -286,7 +270,6 @@ section img {
 .below{
   background-image: url('img/Plant-Roots-rhizosphere.jpeg');
   background-size: cover;
-  /* filter: brightness(60%); */
 }
 img .java{
   width: 10%;
@@ -298,7 +281,6 @@ img .java{
   text-align: center;
   color:  #e8a412;
   font-size: 4em;
-  /* z-index: 2; */
   vertical-align: top;
   top: auto;
 }
@@ -618,9 +600,7 @@ font-size: 5em;
     font-family: "Garamond";
     font-size: 4em;
   }
-  /* .below{ */
-    /* height: 150vh; */
-  /* } */
+
   form.widget-container{
     width: 100%;
     height: 100%;
