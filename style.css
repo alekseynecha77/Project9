@@ -514,6 +514,15 @@ a.social:hover {
   opacity: 1;
 }
 
+
+
+/* NAVBAR */
+li{
+  list-style: none;
+}
+a{
+  color: white;
+}
 .bar{
   display: block;
   width: 25px;
@@ -521,22 +530,6 @@ a.social:hover {
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
   background-color: white;
-}
-
-/* .timeline__component--bg { */
-/*  */
-   /* animation:spin 2s ease-in-out; */
-/* } */
-/* @keyframes spin { */
-   /* 100% {transform: rotate(360deg); transform:rotate(360deg); } */
-/* } */
-/*  */
-
-li{
-  list-style: none;
-}
-a{
-  color: white;
 }
 .navbar{
   min-height: 70px;
@@ -558,6 +551,8 @@ gap: 60px;
   display: none;
   cursor: pointer;
   }
+
+  
 
 .timeline__component--bg {
 
