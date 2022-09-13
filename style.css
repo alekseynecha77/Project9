@@ -403,8 +403,11 @@ img {
 /* Slideshow container */
 .slideshow-container {
   max-width: 800px;
+  max-height: 650px;
+
   position: relative;
   margin: auto;
+  overflow: hidden;
 }
 
 /* Next & previous buttons */
